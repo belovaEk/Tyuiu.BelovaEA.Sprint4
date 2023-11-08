@@ -1,9 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 
-using Tyuiu.BelovaEA.Sprint4.Task3.V13.Lib;
+using Tyuiu.BelovaEA.Sprint4.Task4.V27.Lib;
 
-namespace Tyuiu.BelovaEA.Sprint4.Task3.V13.Test
+namespace Tyuiu.BelovaEA.Sprint4.Task4.V27.Test
 {
     [TestClass]
     public class DataServiceTest
@@ -16,7 +16,7 @@ namespace Tyuiu.BelovaEA.Sprint4.Task3.V13.Test
             int[,] ar = { { 1, 2, 3 },
                           { 2, 1, 3 },
                           { 1, 1, 1} };
-            Assert.AreEqual(7, ds.Calculate(ar));
+            Assert.AreEqual(11, ds.Calculate(ar));
         }
     }
 }
