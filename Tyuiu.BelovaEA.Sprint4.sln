@@ -36,12 +36,23 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task3.V13.Lib", "Tyuiu.BelovaEA.Sprint4.Task3.V13.Lib\Tyuiu.BelovaEA.Sprint4.Task3.V13.Lib.csproj", "{7B8CFA88-B126-4045-981B-98B071B1B552}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task4", "Task4", "{2951A81A-8561-4D80-AC61-C6BFFD2A96D1}"
+	ProjectSection(SolutionItems) = preProject
+		Tyuiu.BelovaEA.Sprint4.Task4.V27\Program.cs = Tyuiu.BelovaEA.Sprint4.Task4.V27\Program.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task4.V27", "Tyuiu.BelovaEA.Sprint4.Task4.V27\Tyuiu.BelovaEA.Sprint4.Task4.V27.csproj", "{B6399BA0-394B-4373-85BF-E64555BE4ACE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task4.V27.Test", "Tyuiu.BelovaEA.Sprint4.Task4.V27.Test\Tyuiu.BelovaEA.Sprint4.Task4.V27.Test.csproj", "{13E471BE-5AB4-437A-87DD-69D44F06866E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task4.V27.Lib", "Tyuiu.BelovaEA.Sprint4.Task4.V27.Lib\Tyuiu.BelovaEA.Sprint4.Task4.V27.Lib.csproj", "{645C0F15-912D-4886-9E08-AF1C973B6F1D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task5", "Task5", "{E8F90A6D-6703-4F13-8D39-D68402440816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task5.V23", "Tyuiu.BelovaEA.Sprint4.Task5.V23\Tyuiu.BelovaEA.Sprint4.Task5.V23.csproj", "{3E3BC4CE-F68C-444C-BB95-80BC144D84D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task5.V23.Lib", "Tyuiu.BelovaEA.Sprint4.Task5.V23.Lib\Tyuiu.BelovaEA.Sprint4.Task5.V23.Lib.csproj", "{B8466E5E-C657-471E-8552-2CD1DE87A9C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.BelovaEA.Sprint4.Task5.V23.Test", "Tyuiu.BelovaEA.Sprint4.Task5.V23.Test\Tyuiu.BelovaEA.Sprint4.Task5.V23.Test.csproj", "{C2017CE5-23D3-4D49-BF51-77CBBFF11375}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -109,6 +120,18 @@ Global
 		{645C0F15-912D-4886-9E08-AF1C973B6F1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{645C0F15-912D-4886-9E08-AF1C973B6F1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{645C0F15-912D-4886-9E08-AF1C973B6F1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E3BC4CE-F68C-444C-BB95-80BC144D84D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E3BC4CE-F68C-444C-BB95-80BC144D84D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E3BC4CE-F68C-444C-BB95-80BC144D84D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E3BC4CE-F68C-444C-BB95-80BC144D84D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8466E5E-C657-471E-8552-2CD1DE87A9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8466E5E-C657-471E-8552-2CD1DE87A9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8466E5E-C657-471E-8552-2CD1DE87A9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8466E5E-C657-471E-8552-2CD1DE87A9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2017CE5-23D3-4D49-BF51-77CBBFF11375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2017CE5-23D3-4D49-BF51-77CBBFF11375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2017CE5-23D3-4D49-BF51-77CBBFF11375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2017CE5-23D3-4D49-BF51-77CBBFF11375}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -129,6 +152,9 @@ Global
 		{B6399BA0-394B-4373-85BF-E64555BE4ACE} = {2951A81A-8561-4D80-AC61-C6BFFD2A96D1}
 		{13E471BE-5AB4-437A-87DD-69D44F06866E} = {2951A81A-8561-4D80-AC61-C6BFFD2A96D1}
 		{645C0F15-912D-4886-9E08-AF1C973B6F1D} = {2951A81A-8561-4D80-AC61-C6BFFD2A96D1}
+		{3E3BC4CE-F68C-444C-BB95-80BC144D84D0} = {E8F90A6D-6703-4F13-8D39-D68402440816}
+		{B8466E5E-C657-471E-8552-2CD1DE87A9C1} = {E8F90A6D-6703-4F13-8D39-D68402440816}
+		{C2017CE5-23D3-4D49-BF51-77CBBFF11375} = {E8F90A6D-6703-4F13-8D39-D68402440816}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D0B86DE-C278-49DF-98FE-3288EEE538AF}
